@@ -29,5 +29,6 @@
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>Classes</Filter>
     </ClInclude>
+    <ClInclude Include="..\BitmapChar.h" />
   </ItemGroup>
 </Project>

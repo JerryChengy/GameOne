@@ -1,0 +1,26 @@
+﻿生成启动时间为 2014/9/9 11:01:36。
+     1>项目“G:\learn\GameOne\cocos2dx\proj.win32\cocos2d.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug.win32\libcocos2d.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+       PreLinkEvent:
+         /cstep C:\Program Files (x86)\Xoreax\IncrediBuild\temp\cstep_{C4B3CA2D-47E6-48E8-8E74-991D1156FD84}.bat if not exist "G:\learn\GameOne\projects\chengy\proj.win32\Debug.win32\" mkdir "G:\learn\GameOne\projects\chengy\proj.win32\Debug.win32\"
+         xcopy /Y /Q "G:\learn\GameOne\cocos2dx\proj.win32\..\platform\third_party\win32\libraries\*.*" "G:\learn\GameOne\projects\chengy\proj.win32\Debug.win32\" /msg "Performing Pre-Link Event"
+         :VCEnd
+         {{xgTaskID=00000004}}
+         复制了 15 个文件
+         {{xgTaskID=00000000}}
+       Link:
+         所有输出均为最新。
+         cocos2d.vcxproj -> G:\learn\GameOne\projects\chengy\proj.win32\Debug.win32\libcocos2d.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\libcocos2d.unsuccessfulbuild”。
+         正在对“Debug.win32\libcocos2d.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\learn\GameOne\cocos2dx\proj.win32\cocos2d.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.57

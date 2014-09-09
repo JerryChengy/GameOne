@@ -1,0 +1,27 @@
+﻿生成启动时间为 2014/9/9 11:01:36。
+     1>项目“G:\learn\GameOne\extensions\proj.win32\libExtensions.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug.win32\libExtensions.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       PreLinkEvent:
+         /cstep C:\Program Files (x86)\Xoreax\IncrediBuild\temp\cstep_{35CC32B8-634C-4C2C-8727-509B400DEA10}.bat if not exist "G:\learn\GameOne\projects\chengy\proj.win32\Debug.win32\" mkdir "G:\learn\GameOne\projects\chengy\proj.win32\Debug.win32\"
+         xcopy /Y /Q "G:\learn\GameOne\extensions\proj.win32\..\..\external\libwebsockets\win32\lib\*.*" "G:\learn\GameOne\projects\chengy\proj.win32\Debug.win32\"
+         xcopy /Y /Q "G:\learn\GameOne\extensions\proj.win32\..\..\external\sqlite3\libraries\win32\*.*" "G:\learn\GameOne\projects\chengy\proj.win32\Debug.win32\" /msg "Performing Pre-Link Event"
+         :VCEnd
+         {{xgTaskID=00000005}}
+         复制了 2 个文件
+         复制了 2 个文件
+         {{xgTaskID=00000000}}
+       Link:
+         所有输出均为最新。
+         libExtensions.vcxproj -> G:\learn\GameOne\projects\chengy\proj.win32\Debug.win32\libExtensions.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\libExtensions.unsuccessfulbuild”。
+         正在对“Debug.win32\libExtensions.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\learn\GameOne\extensions\proj.win32\libExtensions.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.47

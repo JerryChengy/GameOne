@@ -64,19 +64,24 @@ bool HelloWorld::init()
     // add the label as a child to this layer
     this->addChild(pLabel, 1);
 
-    // add "HelloWorld" splash screen"
-    CCSprite* pSprite = CCSprite::create("HelloWorld.png");
-
-    // position the sprite on the center of the screen
-    pSprite->setPosition(ccp(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
-
-    // add the sprite as a child to this layer
-    this->addChild(pSprite, 0);
+	CCRect rect1(133, 333, 42, 46);
+	CCScale9Sprite* btnNormal = CCScale9Sprite::create("char_bluelight.png",rect1);  
+	CCScale9Sprite* btnDown = CCScale9Sprite::create("char_bluelight.png",rect1);  
+	CCControlButton* controlBtn = CCControlButton::create(btnNormal);  
+	controlBtn->setBackgroundSpriteForState(btnDown, CCControlStateSelected);  
+	controlBtn->setPosition(ccp(visibleSize.width/2, visibleSize.height/2));  
+	controlBtn->setPreferredSize(CCSize(60, 50));  
+	controlBtn->addTargetWithActionForControlEvents(this, cccontrol_selector(HelloWorld::touchDownAction), CCControlEventTouchDown);
+	this->addChild(controlBtn);  
     
     return true;
 }
 
-
+void HelloWorld::touchDownAction(CCObject* pSender, CCControlEvent event)
+{
+	int aaa = 0;
+	++aaa;
+}
 void HelloWorld::menuCloseCallback(CCObject* pSender)
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WINRT) || (CC_TARGET_PLATFORM == CC_PLATFORM_WP8)

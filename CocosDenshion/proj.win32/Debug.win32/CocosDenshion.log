@@ -1,0 +1,17 @@
+﻿生成启动时间为 2014/9/9 11:01:36。
+     1>项目“G:\learn\GameOne\CocosDenshion\proj.win32\CocosDenshion.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug.win32\libCocosDenshion.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         所有输出均为最新。
+         CocosDenshion.vcxproj -> G:\learn\GameOne\projects\chengy\proj.win32\Debug.win32\libCocosDenshion.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\libCocosDenshion.unsuccessfulbuild”。
+         正在对“Debug.win32\libCocosDenshion.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\learn\GameOne\CocosDenshion\proj.win32\CocosDenshion.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.04
